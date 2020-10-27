@@ -1,7 +1,6 @@
 import './App.css';
 
 import { CSSReset } from '@chakra-ui/core';
-import Person from './Person';
 import { ThemeProvider } from '@chakra-ui/core';
 import logo from './logo.svg';
 import theme from './theme';
@@ -16,7 +15,6 @@ function App() {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <Person />
           <a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
             Learn React
           </a>
